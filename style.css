@@ -1,0 +1,52 @@
+body {background-color: #E0FBE2;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {color: #ACE1AF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: #BFF6C3;
+    border-color: #B0EBB4;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ACE1AF;
+}
+
+#start-quiz {padding: 10px 20px;
+}
+
+#next {padding: 5px;}
+
+#quiz-container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 70px;
+    background-color: #bdecc0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    #quiz-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+/*https://colorhunt.co/palette/ace1afb0ebb4bff6c3e0fbe2
